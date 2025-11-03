@@ -26,7 +26,7 @@ document.getElementById("calculate").addEventListener("click", function() {
     }
   }
 
-  document.getElementById("result").textContent = "Result: " + result;
+  document.getElementById("result").textContent = result;
 });
 
 document.getElementById("change_text").addEventListener("click", function() {
